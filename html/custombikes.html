@@ -32,8 +32,16 @@
     </nav>
     <main>
         <section>
+            <h2>Custom Road/Triathalon Bikes</h2>
             <fieldset>
-                <legend>Custom Road/Triathalon Bikes</legend>
+                <legend>Customer Information</legend>
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName" value="First Name" required>
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" name="lName" value="Last Name" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" value="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="submit" value="Submit">
             </fieldset>
         </section>
     </main>
