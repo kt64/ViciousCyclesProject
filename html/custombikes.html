@@ -34,7 +34,7 @@
         <section>
             <h2>Custom Road/Triathalon Bikes</h2>
             <form>
-                <fieldset>
+                <fieldset class="customer">
                     <legend>Customer Information</legend>
                     <label for="fName">First Name:</label>
                     <input type="text" id="fName" name="fName" value="First Name" required>
@@ -43,7 +43,7 @@
                     <label for="phone">Phone Number:</label>
                     <input type="tel" id="phone" name="phone" value="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                 </fieldset>
-                <fieldset>
+                <fieldset class="questions">
                     <legend>Bike Questions</legend>
                     <p>How long have you been using Road and/or Triathalon Bikes?</p>
                         <input type="radio" id="beginner" name="biking_time" value="Beginner">
@@ -72,6 +72,7 @@
                         <label for="other">If you selected Other:</label>
                         <textarea id="other" name="other" rows="1" cols="30"></textarea>
                 </fieldset>
+                <h5>We will contact you within 2-3 business days to start working with you on your custom bike.</h5>
                 <input type="submit" value="Submit">
             </form> 
         </section>
