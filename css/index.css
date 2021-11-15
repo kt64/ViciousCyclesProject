@@ -7,3 +7,30 @@ h1 {
     text-align: center;
     color: #010B5B;
 }
+
+.customer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.questions {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contact_form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 25%;
+}
+
+p {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
