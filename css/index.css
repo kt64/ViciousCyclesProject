@@ -47,6 +47,18 @@ main {
     width: 25%;
 }
 
+.contact_us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 25%;
+}
+
+.btn {
+    margin-top: 2%;
+}
+
 p {
     font-weight: bold;
 }
