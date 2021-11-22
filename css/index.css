@@ -70,11 +70,16 @@ fieldset ul {
 }
 
 footer {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin-top: 1%;
-    height: 10vh;
-    line-height: 1.5;
+    height: auto;
     background-color: #9EBAA3;
     border-top: 2px dashed #000;
+}
+
+footer #social_media {
+    display: flex;
+    flex-direction: row;
 }
