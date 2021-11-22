@@ -23,6 +23,12 @@ main {
     margin: 0 auto;
 }
 
+.container img {
+    height: auto;
+    width: 350px;
+    border-radius: 15px;
+}
+
 .customer {
     display: flex;
     flex-flow: column wrap;
