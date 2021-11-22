@@ -71,8 +71,7 @@ nav ul {
     height: auto;
     line-height: 1.5;
     margin: 0 auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    height: 5vh;
     background-color: #9EBAA3;
     border-bottom: 2px dashed #000;
 }
@@ -152,5 +151,16 @@ footer #social_media {
     .logo {
         height: 25px;
         width: auto;
+    }
+
+    .container img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1%;
+        height: auto;
+        width: 250px;
+        border-radius: 15px;
     }
 }
